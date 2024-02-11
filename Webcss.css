@@ -1,0 +1,73 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+nav a {
+    color: #ff8c00;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+.float-example {
+    float: left;
+    margin-right: 20px;
+}
+
+/* absolute positioning */
+.container {
+    position: relative;
+    width: -400px;
+    height: -300px;
+    margin: 20px;
+}
+.absolute-element {
+    position: absolute;
+    top: -100px;
+    left: -150px; 
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+}
+
+h2 {
+    color: #333;
+}
+
+.highlight {
+    background-color: #ff8c00;
+    padding: 5px;
+}
+
+#unique-element {
+    font-weight: bold;
+    color: #fff;
+}
+/* relative img */
+.relative-container {
+    position: relative;
+}
+
+/* Image with relative positioning */
+.relative-image {
+    position: relative;
+    width: 250px;
+    height: 200px;
+}
+
+/* Text with absolute positioning */
+.absolute-text {
+    position: absolute;
+    top: 50px;
+    left: 20px; 
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
